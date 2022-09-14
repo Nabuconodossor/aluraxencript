@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/adae53daa8e5602d809bbe5e8b6f80d1--pixel.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador Alura</title>
+
+</head>
+
+<body>
+
+    <div class="encriptador">
+
+        <div class="logo">
+
+            <img src="./img/seo.png" alt="pantalla">
+
+        </div>
+
+        <div class="texto-encriptar">
+            
+            <textarea  id="texto-entrada" placeholder="Ingrese texto aqui" class="texto-entrada" style=" font-family: 'Dancing Script', cursive; " name="ingreso" cols="70" rows="10"></textarea>
+
+            <div class="frame1">
+
+                <p>⚠ Solo letras minúsculas y sin acentos</p>
+
+            </div>
+
+            <div class="botones">
+
+                <input onclick="encriptar()" class="btn-encriptar" type="button" value="Encriptar" >
+                <input onclick="desencriptar()" class="btn-desencriptar" type="button" value="Desencriptar">
+    
+            </div>
+
+        </div>
+
+        <aside class="texto-encriptado">
+
+            <textarea id="texto-salida" class="texto-salida" name="salida" style="position: absolute; width: 326px; height: 765px; top: 32px; left: 32px"></textarea>
+
+            <img id="my-image" class="imagen-banner" src="./img/21743714_6471686.jpg" alt="computin">
+
+                <div id="frame5" class="frame5">
+
+                    <p>Ningun mensaje fue encontrado</p>
+
+                    <br>
+        
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                </div>
+
+            <input onclick="copiar()" id="btn-copiar" class="btn-copiar" type="button" value="Copiar">
+
+        </aside>
+
+        <footer class="footer">
+
+            <a class="active">Gabriel Felipe Rodriguez Cornejo - Desarrollador Front End</a> 
+            
+            <a href="https://github.com/Nabuconodossor?tab=repositories"><ion-icon name="logo-github"></ion-icon>  Github</a>
+
+            <a href="https://www.linkedin.com/in/gabriel-rodriguez-desarrolloweb/"><ion-icon name="logo-linkedin"></ion-icon>  Linkdin</a>
+
+        </footer>
+
+    </div>
+
+    
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./app.js"></script>
+
+</body>
+
+</html>
+    
